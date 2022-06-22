@@ -11,13 +11,15 @@ export class PlateTypeDropdown extends Component {
   render() {
     let buttonClasses =
       'inline-flex items-center px-2.5 py-1.5 border text-xs font-medium rounded focus:outline-none border-gray-300 text-gray-700 bg-white';
-    if (!this.props.disabled) {
+    if (this.props.disabled) {
       buttonClasses += ' hover:bg-gray-50 disabled:opacity-50';
     }
     return (
       <Menu as="div" className="relative inline-block text-left">
         <div>
-          <Menu.Button className={buttonClasses}>Set Plate Type</Menu.Button>
+          <Menu.Button disabled={this.props.disabled} className={buttonClasses}>
+            Set Plate Type
+          </Menu.Button>
           <Transition
             as={Fragment}
             enter="transition ease-out duration-100"

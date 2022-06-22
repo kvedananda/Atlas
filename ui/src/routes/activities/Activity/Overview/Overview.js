@@ -263,6 +263,7 @@ export class Overview extends Component {
             className="mr-2"
           />
           <PlateTypeDropdown
+            disabled={true}
             onSelect={this.handleSetPlateType}
             plateTypes={this.props.plateTypes}
           />
