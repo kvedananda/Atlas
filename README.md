@@ -1,19 +1,22 @@
 # Atlas - Plate Map creator
 
-Atlas is a visual tool which we designed to give users who a script free way to group and annotate collections.
-Specifically, we have been using it for allowing Biologists to describe the contents of wells and any other metadata
-associated with the project
+To run this project you will need Node.js installed.
 
+To run the demo:
 
-To run this project you will need Node installed, as well as Typescript. 
+```
+npm install
+npm run build
+npm start
+```
+
+Atlas is a visual tool which we designed to give users a script free way to describe the contents of plate wells and any other metadata associated with the project.
 
 ## Sub Folders
-`api/` contains the Swagger documentation for expected fields that Atlas will call
 
-`resource/` contains a bash script that will use the aws-cli 
+`ui/` React app created with CRA. To run `cd ui/` then `npm install;npm start`
 
-`ui/` contains the frontend code. To run `cd ui/` then `npm install;npm start`
-
+`demoserver/` Node Express server that serves up dummy data for demo
 
 ## Contributing
 
@@ -21,14 +24,14 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Kaleido-Biosciences/fetch/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Kaleido-Biosciences/fetch/tags).
 
 ## Authors
-* **Keith Vedananda** - *Initial work* [@kvedananda](https://github.com/kvedananda)
-* **Daisy Flemming** - *Initial work* - [@daisyflemming](https://github.com/daisyflemming)
-* **Pat Kyle** - *Initial work* - [@psk788](https://github.com/psk788)
-* **Wes Fowlks** - *Initial work* - [@wfowlks](https://github.com/wfowlks)
 
+- **Keith Vedananda** - _Initial work_ [@kvedananda](https://github.com/kvedananda)
+- **Daisy Flemming** - _Initial work_ - [@daisyflemming](https://github.com/daisyflemming)
+- **Pat Kyle** - _Initial work_ - [@psk788](https://github.com/psk788)
+- **Wes Fowlks** - _Initial work_ - [@wfowlks](https://github.com/wfowlks)
 
 See also the list of [contributors](https://github.com/Kaleido-Biosciences/fetch/graphs/contributors) who participated in this project.
 
