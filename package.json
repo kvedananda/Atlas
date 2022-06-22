@@ -5,11 +5,7 @@
   "scripts": {
     "build": "cd ui && npm run build",
     "start": "cd demoserver && npm start",
-    "postinstall": "(cd ui && npm install); (cd demoserver && npm install)"
+    "postinstall": "(cd ui && npm install --legacy-peer-deps); (cd demoserver && npm install)"
   },
-  "author": "",
-  "engines": {
-    "npm": ">=8.0.0",
-    "node": ">=16.0.0"
-  }
+  "author": ""
 }
