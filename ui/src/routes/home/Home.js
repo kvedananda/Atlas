@@ -5,7 +5,7 @@ import styles from './Home.module.css';
 
 export class Home extends Component {
   handleSelect = (id, name) => {
-    this.props.history.push(`/activities/${name}`);
+    this.props.history.push(`/activities/${id}`);
   };
   render() {
     return (
