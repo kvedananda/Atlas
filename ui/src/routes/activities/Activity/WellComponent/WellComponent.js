@@ -31,7 +31,7 @@ export class WellComponent extends Component {
         <div {...divProps}>
           <div>
             {this.props.compact ? (
-              <div className={styles.compactName}>{component.data.name}</div>
+              <div className={styles.compactName}>{component.name}</div>
             ) : (
               <div className={styles.name}>{component.name}</div>
             )}
