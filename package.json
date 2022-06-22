@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "build": "cd ui && npm run build",
-    "start": "cd demoserver && npm start"
+    "start": "cd demoserver && npm start",
+    "postinstall": "(cd ui && npm install); (cd demoserver && npm install)"
   },
   "author": "",
   "engines": {
