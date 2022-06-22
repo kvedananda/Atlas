@@ -1,0 +1,14 @@
+{
+  "name": "atlas",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "cd ui && npm run build",
+    "start": "cd demoserver && npm start"
+  },
+  "author": "",
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
+  }
+}
