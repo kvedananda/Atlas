@@ -1,5 +1,7 @@
 # Atlas - Plate Map creator
 
+Atlas is a visual tool which we designed to give users a script free way to describe the contents of plate wells and any other metadata associated with the project.
+
 To run this project you will need Node.js installed.
 
 To run the demo:
@@ -10,7 +12,7 @@ npm run build
 npm start
 ```
 
-Atlas is a visual tool which we designed to give users a script free way to describe the contents of plate wells and any other metadata associated with the project.
+Visit http://localhost:3001 in your browser and you should see the Atlas home page. You can enter anything into the search box, it will always return one project named 'Demo Project'. Clicking the project will take you to the project overview which should have four 96 well plates and one 384 well plate. Searching for components will always return the same four components: a compound, a community, an integer attribute, and a boolean attribute.
 
 ## Sub Folders
 
